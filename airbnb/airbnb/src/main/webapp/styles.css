@@ -1,0 +1,74 @@
+/* .my-img{
+    width: 95px;
+    height: auto;
+} */
+
+ /* ----------------------------------------- FEED CSS START----------------------------------------------- */
+
+
+
+
+   /* ----------------------------------------- FEED CSS END----------------------------------------------- */
+.tab-pane {
+	margin: 20px;
+	margin-top: 50px; /* Add upper margin value here */
+        .enabled-tab {
+            background-color: #3498db !important; /* Blue color */
+            color: #ffffff !important; /* White text */
+}
+}
+
+body {
+    margin: 0;
+}
+
+/* Signup and Signin Form Styles */
+#sign-in-tab-pane,
+#sign-up-tab-pane {
+    padding: 20px;
+}
+
+#sign-in-tab-pane h3,
+#sign-up-tab-pane h3 {
+    text-align: center;
+}
+
+/* Responsive Styles for Navigation Buttons */
+.nav-link {
+    font-size: 16px;
+}
+
+/* Optional: Adjust font size for smaller screens */
+@media (max-width: 767px) {
+    .nav-link {
+        font-size: 14px;
+    }
+}
+
+/* Optional: Add some spacing around buttons */
+.nav-tabs {
+    margin-bottom: 10px;
+}
+
+/* Optional: Style the active button differently */
+.nav-link.active {
+    font-weight: bold;
+    color: #007bff; /* Blue color for active state */
+}
+
+/* Optional: Adjust spacing for smaller screens */
+@media (max-width: 767px) {
+    .nav-tabs {
+        margin-bottom: 5px;
+    }
+}
+/* ---------------------------------------------------------- */
+
+/* Logout */
+
+
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
