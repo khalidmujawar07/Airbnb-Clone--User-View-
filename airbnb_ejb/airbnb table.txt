@@ -1,0 +1,18 @@
+FwWgZxknIGnvNf1b
+pmanager03
+
+
+CREATE TABLE usersbnb (
+    user_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    user_name VARCHAR(255),
+    user_email VARCHAR(255) UNIQUE,
+    user_password VARCHAR(255),
+    user_address VARCHAR(255),
+    user_mobile VARCHAR(15),
+    user_avatar VARCHAR(255)
+);
+
+
+
+CREATE TABLE properties ( property_id INT AUTO_INCREMENT PRIMARY KEY, user_id INT, property_title VARCHAR(255) NOT NULL, property_location VARCHAR(255), property_city VARCHAR(255), property_price DECIMAL(10, 2), property_description TEXT, property_image VARCHAR(255), property_type VARCHAR(50), FOREIGN KEY (user_id) REFERENCES airbnbusers(user_id) ); We saved this conversation. You'll see it soon in the Conversations tab in Skype for Business and in the Conversation History folder in Outlook. 
+
